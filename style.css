@@ -9,8 +9,8 @@
     margin-top: 50px;
     height: 40px;
     width: 300px;
-    background-color: azure;
-    border: 2px solid rgb(73, 75, 73);
+    background-color: rgb(253, 253, 253);
+    border: 2px solid rgb(6, 103, 141);
     border-radius: 0px;
 }
 .btn3{
@@ -22,8 +22,8 @@
 }
 
 .btn3:hover{
-    background-color: #ffffff;
-    color: blue;}
+    
+    color: rgb(255, 255, 255);}
 .card2{
     height:max-content;
     width: 100%;
