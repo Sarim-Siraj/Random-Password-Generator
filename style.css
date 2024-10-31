@@ -5,7 +5,7 @@
 .card-text{
     font-size: 15px;
 }
-.box{
+.box25{
     margin-top: 50px;
     height: 40px;
     width: 300px;
@@ -38,7 +38,7 @@
     background-color: #ffffff;
 }
 .accordion-button:not(.collapsed) {
-    color: blue;
+    background-color: rgb(245, 184, 115);
     box-shadow: none;
     
     /* border-radius: 50px !important;    */
