@@ -1,0 +1,117 @@
+.card-picture {
+    height: 90px;
+    width: 90px;
+}
+.card-text{
+    font-size: 15px;
+}
+.box{
+    margin-top: 50px;
+    height: 40px;
+    width: 300px;
+    background-color: azure;
+    border: 2px solid rgb(73, 75, 73);
+    border-radius: 0px;
+}
+.btn3{
+    
+    margin-top: 10px;
+    width: 170px;
+    border-radius: 0px;
+   
+}
+
+.btn3:hover{
+    background-color: #ffffff;
+    color: blue;}
+.card2{
+    height:max-content;
+    width: 100%;
+}
+
+/* Accor */
+.accordion{
+    --bs-accordion-btn-focus-box-shadow:none;
+    
+}
+.accordion-button{
+    background-color: #ffffff;
+}
+.accordion-button:not(.collapsed) {
+    color: blue;
+    box-shadow: none;
+    
+    /* border-radius: 50px !important;    */
+}
+.accordion-item {
+    background-color: #ffffff;
+    /* border-radius: 50px !important; */
+}
+.accordion-button:not(.collapsed)::after{
+    background-image:  url(./assets/Plus\ icon.png);
+}
+.accordion-button:after{
+    background-image: url(./assets/Plus\ icon\ \(1\).png);
+}
+.accordion-button.collapsed{
+    border: 1px solid black;
+    box-shadow: 1px 5px black;
+}
+.accordion-item:has(.accordion-button:not(.collapsed)){
+    border: 1px solid black;
+    box-shadow: 1px 5px black;
+
+}
+/* .acc{
+    word-spacing: 10px;
+} */
+.acc1{
+    font-size: 20px;
+    font-weight:500;
+}
+.acc2{
+    font-size: 20px;
+    font-weight:500;
+}
+
+
+
+
+@media screen and (max-width: 1320px){
+    .imgfirst{
+        height: 280px;
+        width: 380px;
+      
+    }
+
+   
+
+}
+
+@media screen and (max-width: 960px){
+    .imgfirst{
+        height: 250px;
+        width: 350px;
+      
+    }
+
+    
+
+}
+@media screen and (max-width:480px){
+    .imgfirst{
+        height: 250px;
+        width: 350px;
+        padding-left: 50px;
+    }
+
+}
+
+
+@media screen and (max-width:380px){
+   .imgfirst{
+    height: 250px;
+    width: 300px;
+    padding-left: 10px;
+   }
+}
